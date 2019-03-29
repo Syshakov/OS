@@ -1,0 +1,7 @@
+prog2.o:
+	g++ -D_REENTERANT -lpthread -c prog2.cpp
+all:
+	g++ -pthread prog2.o -o prog2
+clean:
+	rm -R prog2.o
+
