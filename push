@@ -1,7 +1,5 @@
 #!/bin/bash
 make
-make -f makefile2
-make -f makefile3
 git add .
 git commit -m $1
 git push origin CI
