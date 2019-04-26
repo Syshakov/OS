@@ -27,4 +27,4 @@ int main(int argc, char * argv[]) {
  printf("The thread is stopped.\n");
 return EXIT_SUCCESS;
 } 
-
+//xaxa
